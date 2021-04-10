@@ -1,7 +1,7 @@
 # Dream Analysis
 
 
-<img src="./img/dreams_tones.jpg" width="2000">
+<div style="text-align:center"><img src="./img/dreams_tones.jpg" width="2000"></div>
 
 “The interpretation of dreams is the royal road to a knowledge of the unconscious activities of the mind.” ― Sigmund Freud, The Interpretation of Dreams (1900)
 
@@ -18,6 +18,9 @@ Dreams have always fascinated me. In my dreams, I have fulfilled my deepest desi
 
 2. Filtered the dataset by the association of the dreams to "Fire", "Air", "Water", and "Earth" keywords, which yielded ~17% of the SDDb, each dream recorded with the appropriate associated survey series, date, and details such as demographics or dream related measurements of the dreamer (e.g., recollection/insomnia).
 
+<img src="./img/SDDb_web_page_example.png" width="600">
+
+
 3. Applied [TextBlob sentiment analysis ](https://textblob.readthedocs.io/en/dev/) to the dream entries. TextBlob is a python library that uses Natural Language Processing to analyze the sentiment of the textual information in terms of polarity and subjectivity. 
 
 Polarity measures the degree of positive or negative attitude detected from the text. The result is in the range of `[-1.0, 1.0]`, where `-1.0` is the highest point for negative polarity and `1.0` for positive.
@@ -26,7 +29,7 @@ Subjectivity identifies the level of subjectivity/objectivity in the given text,
 
 4. Run the dream logs through[ IBM Watson tone analyzer](https://www.ibm.com/watson/services/tone-analyzer/), a tool that can analyze the emotional and language tones in a text using linguistic analysis at a document and sentence level. Below is the definition of each tone provided by Watson tone analyzer documentation. 
 
-<img src="./img/tone_definition.png" width="600">
+<img src="./img/tone_definition.png" width="300">
 
 
 ## Exploritory Data Analysis (EDA)
@@ -45,8 +48,16 @@ The polarity metrics show that at a high level, the majority of the groups tend 
 
 <img src="./img/polarity_by_demo.jpg" width="2000">
 
+'
+Next we look at emotion tones scores: mean of each emotion tone and proportion of each emotion tone. Both metrics at the segmented demographics level. The mean score chart doesn't show any materially significant difference between the score of each group. The emotion tone proportion informs a different and far more interesting story. Overall, the proportion of sadness and joyous dreams appear much higher than anger and fear indicitive dreams. Please note that some areas where blank or zero is due to lack of data. 
 
-Next exploration of the data was in regards to the emotion tone scores broken down by demographics. However, the result doesn't show any material significance difference in the mean of 
+
+<div style="text-align:center"><img src="./img/dreams_emotions.jpg" width="600"></div>
+
+<img src="./img/tones_by_demo.jpg" width="2000">
+
+
+<img src="./img/emotion_tones_proportions_by_demo.jpg" width="2000">
 
 
 
