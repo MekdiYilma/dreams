@@ -1,7 +1,7 @@
 # Dream Analysis
 
 
-<img src="./img/dreams_tones.jpg" width="600">
+<img src="./img/dreams_tones.jpg" width="2000">
 
 “The interpretation of dreams is the royal road to a knowledge of the unconscious activities of the mind.” ― Sigmund Freud, The Interpretation of Dreams (1900)
 
