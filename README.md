@@ -141,7 +141,7 @@ Similary, I run a test for difference in proportion test for joyful dreams for l
 <img src="./img/joy_dreams_liberals.jpg" width="800">
 
 
-It turns out that liberals had a slightly higher proportion of joyous dreams in the republican presidency than under a democrat one. Now we know that by the end of the last Republican presidency, joyous dreams have plummeted across the board. So could this be related to liberals giving the last president a shot at the earlier period of his presidency? Remains to be further investigated. 
+It turns out that liberals had a slightly higher proportion of joyous dreams in the republican presidency than under a democrat one. Here, we fail to reject our null hypothesis. Now we know that by the end of the last Republican presidency, joyous dreams have plummeted across the board. So could this be related to liberals giving the last president a shot at the earlier period of his presidency? Remains to be further investigated. 
 
 
 ## Parting Thoughts
@@ -151,4 +151,7 @@ Dreams are interprated in radically different ways. According to Sigmund Freud's
 Barely scratching the surface of this in-depth topic, it is clear that dreams are not just meaningless flashing of disjointed thoughts. Even on an emotional level, dreams can trigger feelings that mimic that of realistic ones, even for a shorter duration. The dream tones data analysis shows statistically supported evidence for such claims. 
 
 
-## Future 
+## Next Step Ideas
+
+So much more can be done with the other demographics data. I have only done a close-up investigation on age and politics, however, I suspect, income, education, and marital status will tell other interesting stories. Additionally, the dataset also has other informative columns to work with such as insomnia nights per week, dream recollection per week, survey series (pandemic series, radcial justice series and so forth), typical dream types(visitations, sexual, being chased, awareness etc). These are unexplored areas of my dataset that peek my interest for additional work on this project. 
+
