@@ -48,8 +48,8 @@ The polarity metrics show that at a high level, the majority of the groups tend 
 
 <img src="./img/polarity_by_demo.jpg" width="2000">
 
-'
-Next we look at emotion tones scores: mean of each emotion tone and proportion of each emotion tone. Both metrics at the segmented demographics level. The mean score chart doesn't show any materially significant difference between the score of each group. The emotion tone proportion informs a different and far more interesting story. Overall, the proportion of sadness and joyous dreams appear much higher than anger and fear indicitive dreams. Please note that some areas where blank or zero is due to lack of data. 
+
+Next, we look at emotion tone scores: mean of each emotion tone and proportion of each emotion tone. Both metrics at the segmented demographics level. The mean score chart doesn't show any materially significant difference between the score of each group. 
 
 
 <div style="text-align:center"><img src="./img/dreams_emotions.jpg" width="300"></div>
@@ -57,14 +57,34 @@ Next we look at emotion tones scores: mean of each emotion tone and proportion o
 <img src="./img/tones_by_demo.jpg" width="1000">
 
 
+The emotion tone proportion, on the other hand, informs a different and far more interesting story. Overall, the proportion of sadness and joyous dreams appear much higher than anger and fear indicative dreams. This aligns with what we have seen earlier with the polarity assessment. A higher proportion of dreams evoke joyful feelings.
+
+*Please note that some areas where bars are blank or zero is due to lack of data. 
+
 <img src="./img/emotion_tones_proportions_by_demo.jpg" width="1000">
 
 
 
+Subsequently, we look at language tone proportions. It came as no surprise that the majority of the dreams have a tentative underlying tone, after all, it makes sense that people are unsure and inquisitive of their dreams. But why is the analytical proportion low? Potentially participants are just documenting their dreams in the survey and proceeding with the reasoning and finding interpretations of their dreams outside the survey. A notable trend is dreamers with a higher level of education have a higher analytical proportion than those with lower-level academic achievements. 
+
+<div style="text-align:center"><img src="./img/dreams_languages.jpg" width="300"></div>
+
+<img src="./img/lang_tones_proportions_by_demo.jpg" width="1000">
 
 
 
+## Hypothesis Tests
 
+Let's focus our attention and do further investigation as a follow-up on the above chart for the sad dreams proportion with the different age groups. 
+
+<img src="./img/sadness_proportions_two_age_groups.jpg" width="1000">
+ 
+Assumption to test: sad dreams proportions are different for younger adults vs older adults.
+
+Ho: younger vs older adults have equal proportions of sad dreams<br>
+Ha: sadness dream proportions are different between those two groups
+
+<img src="./img/hypo1.png" width="200">
 
 
 
