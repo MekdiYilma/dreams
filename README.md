@@ -75,7 +75,7 @@ Subsequently, we look at language tone proportions. It came as no surprise that 
 
 ## Hypothesis Tests
 
-Let's focus our attention and do further investigation as a follow-up on the above chart for the sad dreams proportion with the different age groups. 
+Let's focus our attention and do a further investigation as a follow-up on the above chart for the sad dreams proportion with the different age groups. 
 
 <img src="./img/sadness_proportions_two_age_groups.jpg" width="1000">
  
@@ -86,7 +86,13 @@ Ha: sadness dream proportions are different between those two groups
 
 <img src="./img/hypo1.png" width="200">
 
+<img src="./img/sad_dreams_two_tailed.jpg" width="500">
 
+After running a difference in two proportions two-tailed hypothesis test, the probability that the younger and older adults have different proportions given the null hypothesis is ~ 1%, which is much lower than the initial acceptable rate we decided (i.e., alpha of 5%). Therefore, we have sufficient evidence to reject the null hypothesis in favor of the alternative hypothesis. 
+
+Bootstrapping the sample proportion of sad dreams in the younger and older age group suggests a reason to believe that the younger adults have more sad dreams than their opposite counterpart in age. This is demonstrated with the below chart that shows the distribution of the mean of the sample proportions with the resampling size of 10,000 times. 
+
+<img src="./img/sad_dreams_p_bootstrap.jpg" width="500">
 
 
 
