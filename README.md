@@ -6,7 +6,7 @@
 “The interpretation of dreams is the royal road to a knowledge of the unconscious activities of the mind.” ― Sigmund Freud, The Interpretation of Dreams (1900)
 
 ## Introduction
-The main objective of this analysis is to provide data-driven insights into one of the many obscure activities of the brain, dream, and its interpretation. What kind of emotional responses can we expect from our dreams? Are dreams a tiny glimpse into our figment of imagination or perhaps asked differently, are dreams the manifestations of who we are and our daily experiences? Although the interpretation of any dream will only make sense in the context of the dreamer's life, I suspect individuals with shared backgrounds and experiences display relatively similar emotions from their dreams to those from different backgrounds. 
+The main objective of this analysis is to provide data-driven insights into one of the many obscure activities of the brain: dream, and its interpretation. What kind of emotional responses can we expect from our dreams? Are dreams a tiny glimpse into our figment of imagination or perhaps asked differently, are dreams the manifestations of who we are and our daily experiences? Although the interpretation of any dream will only make sense in the context of the dreamer's life, I suspect individuals with shared backgrounds and experiences display relatively similar emotions from their dreams than to those from different backgrounds. 
 
 ## Motivation
 Dreams have always fascinated me. In my dreams, I have fulfilled my deepest desires, experienced incredible moments, felt shock and horror, and even done things that defy the law of physics.  This led me to the question can the interpretation of dreams be answered with data? With this project, I analyze dream entries of random participants to validate hypotheses using statistics. 
@@ -16,7 +16,7 @@ Dreams have always fascinated me. In my dreams, I have fulfilled my deepest desi
 
 1. Web-scrapped a subset of the [Sleep and Dream Database (SDDb)](https://sleepanddreamdatabase.org/), a digital archive and search engine developed by a psychologist and dream researcher Kelly Bulkeley, Ph.D. As of Apr 2021, the database has a little over 34,000 dream entries from participants with varying backgrounds. 
 
-2. Filtered the dataset by the association of the dreams to "Fire", "Air", "Water", and "Earth" keywords, which yielded ~17% of the SDDb, each dream recorded with the appropriate associated survey series, date, and details such as demographics or dream related measurements of the dreamer (e.g., recollection/insomnia).
+2. Filtered the dataset by the association of the dreams to "Fire", "Air", "Water", and "Earth" keywords, which yielded ~17% of the SDDb, each dream recorded with the appropriate associated survey series, date, and details such as demographics or dream related measurements of the dreamer (e.g., recollection/insomnia). Here is a sample dream journal from the racial justice survey series.
 
     <img src="./img/SDDb_web_page_example.png" width="300">
 
@@ -48,15 +48,19 @@ The polarity metrics show that at a high level, the majority of the groups tend 
 
 <img src="./img/polarity_by_demo.jpg" width="2000">
 
-
-Next, we look at emotion tone scores: mean of each emotion tone and proportion of each emotion tone, both metrics at the segmented demographics level. The mean score chart doesn't show any materially significant difference between the score of each group. 
+<br>
+<br>
+<br>
+Next, we look at emotion tone scores: mean of each emotion tone and proportion of each emotion tone (―both metrics at the segmented demographics level). The mean score chart doesn't show any materially significant difference between the score of each group. 
 
 
 <div style="text-align:center"><img src="./img/dreams_emotions.jpg" width="300"></div>
 
 <img src="./img/tones_by_demo.jpg" width="1000">
 
-
+<br>
+<br>
+<br>
 The emotion tone proportion, on the other hand, informs a different and far more interesting story. Overall, the proportion of sadness and joyous dreams appear much higher than anger and fear indicative dreams. This aligns with what we have seen earlier with the polarity assessment. A higher proportion of dreams evoke joyful feelings.
 
 *Please note that some areas where bars are blank or zero is due to lack of data. 
@@ -64,14 +68,21 @@ The emotion tone proportion, on the other hand, informs a different and far more
 <img src="./img/emotion_tones_proportions_by_demo.jpg" width="1000">
 
 
-
+<br>
+<br>
+<br>
 Subsequently, we look at language tone proportions. It came as no surprise that the majority of the dreams have a tentative underlying tone, after all, it makes sense that people are unsure and inquisitive of their dreams. But why is the analytical proportion low? Potentially participants are just documenting their dreams in the survey and proceeding with the reasoning and finding interpretations of their dreams outside the survey. A notable trend is dreamers with a higher level of education have a higher analytical proportion than those with lower-level academic achievements. 
+<br>
+<br>
+<br>
 
 <div style="text-align:center"><img src="./img/dreams_languages.jpg" width="300"></div>
 
 <img src="./img/lang_tones_proportions_by_demo.jpg" width="1000">
 
-
+<br>
+<br>
+<br>
 
 ## Hypothesis Tests
 
@@ -88,7 +99,7 @@ Ha: sadness dream proportions are different between those two groups
 
 <img src="./img/sad_dreams_two_tailed.jpg" width="800">
 
-After running a difference in two proportions two-tailed hypothesis test, the probability that the younger and older adults have different proportions given the null hypothesis is ~ 1%, which is much lower than the initial acceptable rate we decided (i.e., alpha of 5%). Therefore, we have sufficient evidence to reject the null hypothesis in favor of the alternative hypothesis. 
+After running a difference in two proportions two-tailed hypothesis test, we can see that the probability that the younger and older adults have different proportions given the null hypothesis is ~ 1%, which is much lower than the initial acceptable rate we decided at the start of the test (i.e., alpha of 5%). Therefore, we have sufficient evidence to reject the null hypothesis in favor of the alternative hypothesis. 
 
 Bootstrapping the sample proportion of sad dreams in the younger and older age group suggests a reason to believe that the younger adults have more sad dreams than their opposite counterparts in age. This is demonstrated with the below chart that shows the distribution of the mean of the sample proportions with the resampling size of 10,000 times. 
 
@@ -108,7 +119,8 @@ Ha: younger adults have higher proportion of sad dreams than older adults
 The right-tailed test indicates that it is highly unlikely we test a sample of a higher proportion of sad dreams in younger adults provided the null hypothesis is true, therefore producing evidence to reject the null hypothesis. 
 
 
-
+<br>
+<br>
 Another enlightening chart is the proportion of dream tones over time. Although each tone line fluctuates every two years or so, overall it maintains a relatively flat rate throughout the last decade except for joy. Joyful dreams plummeted starting early 2020 from about 61% to 9%. This could very well be attributed to the global pandemic and racial injustice issues. 
 
 <img src="./img/dreams_proportion_YoY.jpg" width="800">
@@ -146,7 +158,7 @@ It turns out that liberals had a slightly higher proportion of joyous dreams in 
 
 ## Parting Thoughts
 
-Dreams are interprated in radically different ways. According to Sigmund Freud's publication in 1899, dreams are symbolic representations of our unconscious thoughts. Dreams were studied scientifically late in the late 1900s by Calvin Hall who theorized that dreams are depictions of who we are and how we see the world. In this lane, the cognitive approach asserts that dreams occur during the rapid eye movement(REM) phase of sleep as the brain transfers neurological activity and stores in memories. Finally, the latest research in the neuroscience approach dream interpretation in terms of how the neuron networks behave differently during sleep phases. 
+Dreams are interprated in radically different ways. According to Sigmund Freud's publication in 1899, dreams are symbolic representations of our unconscious thoughts. Dreams were first studied scientifically late in the late 1900s by Calvin Hall who theorized that dreams are depictions of who we are and how we see the world. In this lane, the cognitive approach asserts that dreams occur during the rapid eye movement(REM) phase of sleep as the brain transfers neurological activity and stores in memories. Finally, the latest research in the neuroscience approach dream interpretation in terms of how the neuron networks behave differently during sleep phases. 
 
 Barely scratching the surface of this in-depth topic, it is clear that dreams are not just meaningless flashing of disjointed thoughts. Even on an emotional level, dreams can trigger feelings that mimic that of realistic ones, even for a shorter duration. The dream tones data analysis shows statistically supported evidence for such claims. 
 
