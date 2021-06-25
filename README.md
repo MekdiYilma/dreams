@@ -1,4 +1,4 @@
-# Dream Analysis
+# Dream Interpretation
 
 
 <div style="text-align:center"><img src="./img/dreams_tones.jpg" width="2000"></div>
